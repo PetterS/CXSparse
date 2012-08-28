@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CXSparse", "CXSparse.vcxproj", "{41719CB7-7A45-43F2-AFC8-DDDC938EBC32}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cs_demo1", "..\cs_demo1\cs_demo1.vcxproj", "{EEE1E9F9-73CE-42D4-AC91-0E25B4197F01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41719CB7-7A45-43F2-AFC8-DDDC938EBC32} = {41719CB7-7A45-43F2-AFC8-DDDC938EBC32}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41719CB7-7A45-43F2-AFC8-DDDC938EBC32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41719CB7-7A45-43F2-AFC8-DDDC938EBC32}.Debug|Win32.Build.0 = Debug|Win32
+		{41719CB7-7A45-43F2-AFC8-DDDC938EBC32}.Debug|x64.ActiveCfg = Debug|x64
+		{41719CB7-7A45-43F2-AFC8-DDDC938EBC32}.Debug|x64.Build.0 = Debug|x64
+		{41719CB7-7A45-43F2-AFC8-DDDC938EBC32}.Release|Win32.ActiveCfg = Release|Win32
+		{41719CB7-7A45-43F2-AFC8-DDDC938EBC32}.Release|Win32.Build.0 = Release|Win32
+		{41719CB7-7A45-43F2-AFC8-DDDC938EBC32}.Release|x64.ActiveCfg = Release|x64
+		{41719CB7-7A45-43F2-AFC8-DDDC938EBC32}.Release|x64.Build.0 = Release|x64
+		{EEE1E9F9-73CE-42D4-AC91-0E25B4197F01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EEE1E9F9-73CE-42D4-AC91-0E25B4197F01}.Debug|Win32.Build.0 = Debug|Win32
+		{EEE1E9F9-73CE-42D4-AC91-0E25B4197F01}.Debug|x64.ActiveCfg = Debug|Win32
+		{EEE1E9F9-73CE-42D4-AC91-0E25B4197F01}.Release|Win32.ActiveCfg = Release|Win32
+		{EEE1E9F9-73CE-42D4-AC91-0E25B4197F01}.Release|Win32.Build.0 = Release|Win32
+		{EEE1E9F9-73CE-42D4-AC91-0E25B4197F01}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
